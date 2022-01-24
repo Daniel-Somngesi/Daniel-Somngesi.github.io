@@ -2,7 +2,7 @@
   display: none;
 }
 
-/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+/* When the screen is less than 800 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 800px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
@@ -23,8 +23,7 @@
     float: right;
     display:block;
     text-align: center;
-    width: 125px;
-    padding-top: 10px;
+    width: 110px;
     margin-left: 50%;
     background-color: silver;
     color: #000000;
@@ -63,9 +62,12 @@ html {
 
   a#nav-link {
     float: right;
-    color: #400681;
+    color: #08067c;
     text-align: center;
-    padding: 19px 24px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    padding-right: 28px;
+    padding-top: 12px;
     text-decoration: none;
     font-size: 13px;
     font-weight: bold;
@@ -74,7 +76,6 @@ html {
   
   a#portfolioLink {
     float: left;
-    justify-self: start;
   }
 
 
@@ -104,7 +105,6 @@ html {
   .banner {
     background-color: #ffffff;
     height: 100%;
-    background-position: center;
     background-repeat: no-repeat;
     text-align: center;
     background-size: cover;
@@ -143,7 +143,7 @@ html {
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     letter-spacing: .10em; /* Adjust as needed */
     animation: 
-      typing 2.9s steps(30, end),
+      typing 2.3s steps(30, end),
       blink-caret .5s step-end infinite;
       margin-bottom: 7px;
   }
@@ -151,7 +151,7 @@ html {
   /* The typing effect */
   @keyframes typing {
     from { width: 0 }
-    to { width: 28% }
+    to { width: 20% }
   }
   
   /* The typewriter cursor effect */
