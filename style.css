@@ -798,11 +798,10 @@ input[type=submit]:active {
   width: 100%;
   padding: 10px;
   margin-top: 20px;
-  padding-left: 25%;
   margin-bottom: 30px;
 }
 #getInTouchHeading, #slogan, #stmnt {
-  margin-left: 20%;
+  margin-left: 5%;
 }
 
 #getInTouchHeading {
