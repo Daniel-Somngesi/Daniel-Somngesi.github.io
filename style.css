@@ -519,8 +519,8 @@ html {
   background-color: #000000;
 }
 
-.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-  padding-right: 0;
+div.row {
+  --bs-gutter-x: 0;
 }
 
 .circle-wrap4 .circle4 .mask4 {
@@ -768,7 +768,7 @@ body {
 }
 
 .contactDiv {
-  height: 660px;
+  height: 670px;
   background-color: #000000;
   background-repeat: no-repeat;
   background-size: 100% 100%;
