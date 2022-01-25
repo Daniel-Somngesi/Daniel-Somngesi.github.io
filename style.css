@@ -2,6 +2,16 @@
   display: none;
 }
 
+.skillsDiv2  {
+  display: none;
+  
+}
+
+.skillsDiv2> .row > .col-6 > h5  {
+  font-family: 'Dongle', sans-serif;
+  font-weight: bold;
+}
+
 /* When the screen is less than 800 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 800px) {
   .topnav a:not(:first-child) {display: none;}
@@ -181,8 +191,13 @@ html {
   .skillsDiv {
     background-color: #ffffff;
     background-size: 100% 100%;
+
   }
 
+  .skillsDiv > .row > .col-4 {
+    text-align: center;
+  }
+  
   .fa {
     padding: 20px;
     width: 54px;
@@ -804,6 +819,11 @@ input[type=submit]:active {
   margin-left: 5%;
 }
 
+.skillsDiv2 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
 #getInTouchHeading {
   padding-top: 120px;
   font-family: 'Dongle', sans-serif;
@@ -834,6 +854,16 @@ input[type=submit]:active {
   padding: 5px;
   font-family: 'Abel', sans-serif;
   color: #ffffff;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .tabs {
+        display: none;
+    }
+    .skillsDiv2 {
+      display: initial;
+    }
 }
 
 
