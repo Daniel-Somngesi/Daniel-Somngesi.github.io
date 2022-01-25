@@ -519,9 +519,6 @@ html {
   background-color: #000000;
 }
 
-.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-  padding-right: 0;
-}
 
 .circle-wrap4 .circle4 .mask4 {
   clip: rect(0px, 150px, 150px, 75px);
