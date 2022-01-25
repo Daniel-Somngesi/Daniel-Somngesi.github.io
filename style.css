@@ -197,7 +197,7 @@ html {
   .skillsDiv > .row > .col-4 {
     text-align: center;
   }
-  
+
   .fa {
     padding: 20px;
     width: 54px;
@@ -517,6 +517,10 @@ html {
 .mask4 .fill4 {
   clip: rect(0px, 75px, 150px, 0px);
   background-color: #000000;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+  padding-right: 0;
 }
 
 .circle-wrap4 .circle4 .mask4 {
