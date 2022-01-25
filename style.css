@@ -519,6 +519,9 @@ html {
   background-color: #000000;
 }
 
+div.row {
+  --bs-gutter-x: 0;
+}
 
 .circle-wrap4 .circle4 .mask4 {
   clip: rect(0px, 150px, 150px, 75px);
