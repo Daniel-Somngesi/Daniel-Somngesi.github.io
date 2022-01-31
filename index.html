@@ -26,6 +26,7 @@
 </head>
 
 <body>
+    <div id="preloader"></div>
     <div class="banner">
         <div class="topnav" id="myTopnav">
             <a id="portfolioLink" href="#myPortfolio"><img src="Images/DanielS.logo1.png" alt="logo" height="87px" width="170px"></a>
@@ -267,19 +268,7 @@
     </footer>
     <div>
 
-        <script>
-            function myFunction() {
-                var x = document.getElementById("myTopnav");
-                if (x.className === "topnav") {
-                  x.className += " responsive";
-                } else {
-                  x.className = "topnav";
-                }
-              }
-            var dt = new Date();
-            document.getElementById('date-time').innerHTML = dt.getFullYear();
-            
-        </script>
+        <script src="script.js"></script>
 </body>
 
 </html>
