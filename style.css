@@ -832,8 +832,8 @@ body {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   margin-top: 15px;
-  bottom: 0;
-  margin-bottom: 0;
+  bottom: 0 !important;
+  margin-bottom: 0 !important;
 }
 
 input[type=text], input[type=email], select, textarea {
