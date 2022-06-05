@@ -759,11 +759,74 @@ select:focus {
   color: #ffffff;
   border-bottom: 4px solid #007bb5;
   text-align: center;
+  font-weight:bolder;
+  padding-top: 25px;
+}
 
+.prjct-link{
+  text-decoration: none;
+  color: #0074D9;
+  font-weight:bold;
+  font-family: 'Caveat', cursive;
+}
+
+.prjct-link{
+  position: relative;
+}
+
+.prjct-link::before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 2px;
+  background-color: #0074D9;
+  transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .prjct-link:hover::before{
+    left: 0;
+    right: auto;
+    width: 100%;
+  }
+}
+
+#prjct1 {
+  border-bottom: 3px solid #f2025e;
+  border-left: 2px solid #f2025e;
+}
+
+
+#prjct2 {
+  border-bottom: 3px solid #edb009;
+  border-left: 2px solid #edb009;
+}
+
+#prjct3 {
+  border-bottom: 3px solid #810fd9;
+  border-left: 2px solid #810fd9;
+}
+
+.prjct {
+  color:black;
+  background-color: white;
+  padding:20px;
+  margin: 15px;
+  text-align: center;
+  border-radius: 8px;
+  font-family: 'Dongle', sans-serif;
+  font-size: 22px;
+  min-height: 350px;
 }
 
 body {
   background-color: grey;
+}
+
+.endppar {
+  padding-bottom: 25px;
 }
 
 .contactDiv {
