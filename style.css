@@ -818,7 +818,7 @@ select:focus {
   border-radius: 8px;
   font-family: 'Dongle', sans-serif;
   font-size: 22px;
-  min-height: 350px;
+  min-height: 310px;
 }
 
 body {
