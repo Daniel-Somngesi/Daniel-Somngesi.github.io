@@ -794,16 +794,16 @@ select:focus {
 }
 
 #prjct1 {
-  border-left: 4px solid #05dff7;
+  border-left: 3px dotted #2e1554;
 }
 
 
 #prjct2 {
-  border-left: 4px solid #05dff7;
+  border-left: 3px dotted #2e1554;
 }
 
 #prjct3 {
-  border-left: 4px solid #05dff7;
+  border-left: 3px dotted #2e1554;
 }
 
 .prjct {
