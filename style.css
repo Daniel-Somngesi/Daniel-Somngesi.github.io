@@ -226,6 +226,7 @@ html {
 
   .contactIcons {
     text-align: center;
+    padding-bottom: 20px;
   }
 
   .fa-linkedin:hover {
@@ -770,6 +771,24 @@ select:focus {
   font-family: 'Caveat', cursive;
 }
 
+#cv-link {
+  text-decoration: none;
+  border: 2px solid white;
+  
+  box-shadow: 5px 5px turquoise;
+  border-radius: 10px;
+  font-family: 'Dongle', sans-serif;
+  font-size: 20px;
+  
+}
+
+#cv-link:hover {
+  border: 2px solid white;
+  box-shadow: 3px 3px turquoise;
+  background-color:slategrey;
+  color: white;
+}
+
 .prjct-link{
   position: relative;
 }
@@ -783,6 +802,12 @@ select:focus {
   height: 2px;
   background-color: #0074D9;
   transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+@media only screen and (max-width: 600px) {
+  #cv-link {
+    display: inline !important;
+  }
 }
 
 @media (hover: hover) and (pointer: fine) {

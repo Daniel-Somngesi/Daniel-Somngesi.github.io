@@ -7,6 +7,8 @@ function myFunction() {
     } else {
       x.className = "topnav";
     }
+
+    
   }
 var dt = new Date();
 document.getElementById('date-time').innerHTML = dt.getFullYear();
@@ -22,4 +24,6 @@ window.addEventListener("load", function(){
     loader2.style.display = "none";
     loader3.style.display = "none";
 })
+
+
 
