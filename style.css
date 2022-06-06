@@ -227,6 +227,7 @@ html {
   .contactIcons {
     text-align: center;
     padding-bottom: 20px;
+    margin-bottom:18px;
   }
 
   .fa-linkedin:hover {
@@ -774,18 +775,19 @@ select:focus {
 #cv-link {
   text-decoration: none;
   border: 2px solid white;
-  
-  box-shadow: 5px 5px turquoise;
+  background-color: #05acff;
+  box-shadow: 2px 2px #8d999e;
   border-radius: 10px;
   font-family: 'Dongle', sans-serif;
   font-size: 20px;
-  
+  color: white;
+  font-size:16px;
 }
 
 #cv-link:hover {
   border: 2px solid white;
-  box-shadow: 3px 3px turquoise;
-  background-color:slategrey;
+  box-shadow: 1.5px 1.5px #05acff;
+  background-color:#394f59;
   color: white;
 }
 
