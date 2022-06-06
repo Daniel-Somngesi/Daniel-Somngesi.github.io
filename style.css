@@ -784,7 +784,26 @@ select:focus {
   font-size:16px;
 }
 
+#cv-link2 {
+  text-decoration: none;
+  border: 2px solid white;
+  background-color: #05acff;
+  box-shadow: 2px 2px #8d999e;
+  border-radius: 10px;
+  font-family: 'Dongle', sans-serif;
+  font-size: 20px;
+  color: white;
+  font-size:16px;
+}
+
 #cv-link:hover {
+  border: 2px solid white;
+  box-shadow: 1.5px 1.5px #05acff;
+  background-color:#394f59;
+  color: white;
+}
+
+#cv-link2:hover {
   border: 2px solid white;
   box-shadow: 1.5px 1.5px #05acff;
   background-color:#394f59;
@@ -810,7 +829,14 @@ select:focus {
   #cv-link {
     display: inline !important;
   }
+  #cv-link2 {
+    display: none;
+    align-content: center;
+    text-align: center !important;
+  }
 }
+
+
 
 @media (hover: hover) and (pointer: fine) {
   .prjct-link:hover::before{
@@ -861,6 +887,7 @@ body {
   margin-top: 15px;
   bottom: 0 !important;
   margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
 }
 
 input[type=text], input[type=email], select, textarea {
