@@ -47,7 +47,7 @@ html {
 }
 
 .topnav {
-    background-color: #ffffff;
+    background-color: #003152;
     overflow: hidden;
     position: -webkit-sticky;
 	  position: sticky;
@@ -75,7 +75,7 @@ html {
 
   a#nav-link {
     float: right;
-    color: #08067c;
+    color: white;
     text-align: center;
     padding-bottom: 10px;
     padding-left: 12px;
@@ -94,7 +94,7 @@ html {
 
   a#nav-link:hover {
     border-bottom: 3px solid #0dc1f8;
-    color: #002633;
+    color: white;
     text-shadow: 0.1px 0.3px 0px #0dc1f8;
   }
 
@@ -103,7 +103,9 @@ html {
     color: white;
   }
 
-
+.bio {
+  color:white;
+}
 
   .bio #avatar {
     border-radius: 50%;
@@ -171,7 +173,7 @@ html {
   /* The typewriter cursor effect */
   @keyframes blink-caret {
     from, to { border-color: transparent }
-    50% { border-color: rgba(3, 7, 241, 0.733) }
+    50% { border-color: rgba(255, 255, 255, 0.733) }
   }
 
   .aboutMe h4{
@@ -1080,8 +1082,8 @@ input[type=submit]:active {
   -webkit-transform: rotate(45deg);
   border-left: none;
   border-top: none;
-  border-right: 2px #570fd4 solid;
-  border-bottom: 2px #570fd4 solid; }
+  border-right: 2px #07ebc1 solid;
+  border-bottom: 2px #07ebc1 solid; }
 
 .arrow:before {
   content: '';
@@ -1091,8 +1093,8 @@ input[type=submit]:active {
   margin: -10px 0 0 -10px;
   border-left: none;
   border-top: none;
-  border-right: 1px #4a2091 solid;
-  border-bottom: 1px #4a2091 solid;
+  border-right: 1px #07ebc1 solid;
+  border-bottom: 1px #07ebc1 solid;
   animation-duration: 2s;
   animation-iteration-count: infinite;
   animation-name: arrow; }
