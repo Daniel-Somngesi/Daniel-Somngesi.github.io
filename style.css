@@ -49,6 +49,9 @@ html {
 .topnav {
     background-color: #ffffff;
     overflow: hidden;
+    position: -webkit-sticky;
+	  position: sticky;
+	  top: 0;
   }
 
   body, html {
@@ -113,7 +116,8 @@ html {
   }
 
   .banner {
-    background-color: #ffffff;
+    
+    background-image: url("./Images/Plain1.jpg");
     height: 100%;
     background-repeat: no-repeat;
     text-align: center;
@@ -1072,7 +1076,6 @@ input[type=submit]:active {
 .arrow {
   width: 40px;
   height: 40px;
-
   margin: -20px 0 0 -20px;
   -webkit-transform: rotate(45deg);
   border-left: none;
