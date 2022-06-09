@@ -1058,6 +1058,30 @@ input[type=submit]:active {
   .arrow {
     display: none;
   }
+  .topnav {
+    background-color: white;
+  }
+  .banner {
+    background-image: none;
+    background-color: white;
+  }
+  .bio {
+    color:#000000;
+  }
+  .topnav {
+    color:#000000
+  }
+  a#nav-link {
+    color: #002633;
+  }
+  a#nav-link:hover {
+    color:#002633 ;
+  }
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgba(4, 54, 63, 0.733) }
+  }
+
 }
 
 @media only screen and (max-width: 360px) {
