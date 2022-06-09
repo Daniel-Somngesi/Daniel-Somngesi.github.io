@@ -1049,6 +1049,9 @@ input[type=submit]:active {
   #preloader2 {
     display: block;
   }
+  .arrow {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 360px) {
@@ -1058,6 +1061,7 @@ input[type=submit]:active {
   #preloader3 {
     display: block;
   }
+
 }
 
 .arrow,
