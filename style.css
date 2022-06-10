@@ -1085,6 +1085,9 @@ input[type=submit]:active {
   .logo {
     content:url("Images/DanielS.logo1.png");
   }
+  .contactIcons {
+    padding-bottom: 9px;
+  }
 
 }
 
