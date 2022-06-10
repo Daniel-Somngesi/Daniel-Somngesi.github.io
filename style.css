@@ -1082,6 +1082,9 @@ input[type=submit]:active {
     from, to { border-color: transparent }
     50% { border-color: rgba(4, 54, 63, 0.733) }
   }
+  .logo {
+    content:url("Images/DanielS.logo1.png");
+  }
 
 }
 
